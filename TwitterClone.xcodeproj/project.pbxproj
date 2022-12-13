@@ -20,6 +20,7 @@
 		99CE90B52947E12100769230 /* Image+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE90B42947E12100769230 /* Image+Extensions.swift */; };
 		99CE90B82947E73300769230 /* CreateTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE90B72947E73300769230 /* CreateTweetView.swift */; };
 		99CE90BB2947E9C800769230 /* MultilineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE90BA2947E9C800769230 /* MultilineTextField.swift */; };
+		99CE90BD294816BB00769230 /* TweetCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE90BC294816BB00769230 /* TweetCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		99CE90B42947E12100769230 /* Image+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extensions.swift"; sourceTree = "<group>"; };
 		99CE90B72947E73300769230 /* CreateTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTweetView.swift; sourceTree = "<group>"; };
 		99CE90BA2947E9C800769230 /* MultilineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextField.swift; sourceTree = "<group>"; };
+		99CE90BC294816BB00769230 /* TweetCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				99CE90A72947BFF200769230 /* FeedView.swift */,
+				99CE90BC294816BB00769230 /* TweetCellView.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				99CE90AB2947C00400769230 /* MessagesView.swift in Sources */,
 				99CE90B32947C39500769230 /* Color+Extensions.swift in Sources */,
 				99CE90AE2947C01400769230 /* SearchView.swift in Sources */,
+				99CE90BD294816BB00769230 /* TweetCellView.swift in Sources */,
 				99CE90A52947BE5900769230 /* HomeView.swift in Sources */,
 				9985A82B2942C3C100D211A2 /* TwitterCloneApp.swift in Sources */,
 				99CE90B82947E73300769230 /* CreateTweetView.swift in Sources */,
