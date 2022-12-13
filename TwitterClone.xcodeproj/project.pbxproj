@@ -16,6 +16,10 @@
 		99CE90AB2947C00400769230 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE90AA2947C00400769230 /* MessagesView.swift */; };
 		99CE90AE2947C01400769230 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE90AD2947C01400769230 /* SearchView.swift */; };
 		99CE90B12947C06600769230 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE90B02947C06600769230 /* NotificationsView.swift */; };
+		99CE90B32947C39500769230 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE90B22947C39500769230 /* Color+Extensions.swift */; };
+		99CE90B52947E12100769230 /* Image+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE90B42947E12100769230 /* Image+Extensions.swift */; };
+		99CE90B82947E73300769230 /* CreateTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE90B72947E73300769230 /* CreateTweetView.swift */; };
+		99CE90BB2947E9C800769230 /* MultilineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE90BA2947E9C800769230 /* MultilineTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,10 @@
 		99CE90AA2947C00400769230 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
 		99CE90AD2947C01400769230 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		99CE90B02947C06600769230 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		99CE90B22947C39500769230 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		99CE90B42947E12100769230 /* Image+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extensions.swift"; sourceTree = "<group>"; };
+		99CE90B72947E73300769230 /* CreateTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTweetView.swift; sourceTree = "<group>"; };
+		99CE90BA2947E9C800769230 /* MultilineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,8 @@
 		99CE909C2947BDFD00769230 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				99CE90B22947C39500769230 /* Color+Extensions.swift */,
+				99CE90B42947E12100769230 /* Image+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -106,6 +116,8 @@
 		99CE909F2947BE1600769230 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				99CE90B92947E9AF00769230 /* CustomItems */,
+				99CE90B62947E6F600769230 /* CreateTweet */,
 				99CE90AF2947C04900769230 /* Notifications */,
 				99CE90AC2947C00700769230 /* Search */,
 				99CE90A92947BFF600769230 /* Messages */,
@@ -160,6 +172,22 @@
 				99CE90B02947C06600769230 /* NotificationsView.swift */,
 			);
 			path = Notifications;
+			sourceTree = "<group>";
+		};
+		99CE90B62947E6F600769230 /* CreateTweet */ = {
+			isa = PBXGroup;
+			children = (
+				99CE90B72947E73300769230 /* CreateTweetView.swift */,
+			);
+			path = CreateTweet;
+			sourceTree = "<group>";
+		};
+		99CE90B92947E9AF00769230 /* CustomItems */ = {
+			isa = PBXGroup;
+			children = (
+				99CE90BA2947E9C800769230 /* MultilineTextField.swift */,
+			);
+			path = CustomItems;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,13 +260,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99CE90B52947E12100769230 /* Image+Extensions.swift in Sources */,
 				9985A82D2942C3C100D211A2 /* ContentView.swift in Sources */,
 				99CE90A82947BFF200769230 /* FeedView.swift in Sources */,
 				99CE90AB2947C00400769230 /* MessagesView.swift in Sources */,
+				99CE90B32947C39500769230 /* Color+Extensions.swift in Sources */,
 				99CE90AE2947C01400769230 /* SearchView.swift in Sources */,
 				99CE90A52947BE5900769230 /* HomeView.swift in Sources */,
 				9985A82B2942C3C100D211A2 /* TwitterCloneApp.swift in Sources */,
+				99CE90B82947E73300769230 /* CreateTweetView.swift in Sources */,
 				99CE90B12947C06600769230 /* NotificationsView.swift in Sources */,
+				99CE90BB2947E9C800769230 /* MultilineTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
