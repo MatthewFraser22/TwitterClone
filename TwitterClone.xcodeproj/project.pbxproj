@@ -21,6 +21,14 @@
 		99CE90B82947E73300769230 /* CreateTweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE90B72947E73300769230 /* CreateTweetView.swift */; };
 		99CE90BB2947E9C800769230 /* MultilineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE90BA2947E9C800769230 /* MultilineTextField.swift */; };
 		99CE90BD294816BB00769230 /* TweetCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE90BC294816BB00769230 /* TweetCellView.swift */; };
+		99CE90C029490E2A00769230 /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE90BF29490E2A00769230 /* SearchCell.swift */; };
+		99CE90C22949166400769230 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE90C12949166400769230 /* SearchBarView.swift */; };
+		99CE90C429491A5C00769230 /* SearchUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE90C329491A5B00769230 /* SearchUserCell.swift */; };
+		99CE90C629491C0800769230 /* UIApplication+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE90C529491C0800769230 /* UIApplication+Extension.swift */; };
+		99CE90C82949339800769230 /* NotificationCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE90C72949339800769230 /* NotificationCellView.swift */; };
+		99CE90CA294936D500769230 /* MessageCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE90C9294936D500769230 /* MessageCellView.swift */; };
+		99CE90CC29493B5400769230 /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE90CB29493B5400769230 /* TopBar.swift */; };
+		99CE90CE29493C9600769230 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE90CD29493C9600769230 /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +47,14 @@
 		99CE90B72947E73300769230 /* CreateTweetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTweetView.swift; sourceTree = "<group>"; };
 		99CE90BA2947E9C800769230 /* MultilineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextField.swift; sourceTree = "<group>"; };
 		99CE90BC294816BB00769230 /* TweetCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetCellView.swift; sourceTree = "<group>"; };
+		99CE90BF29490E2A00769230 /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
+		99CE90C12949166400769230 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		99CE90C329491A5B00769230 /* SearchUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserCell.swift; sourceTree = "<group>"; };
+		99CE90C529491C0800769230 /* UIApplication+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extension.swift"; sourceTree = "<group>"; };
+		99CE90C72949339800769230 /* NotificationCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCellView.swift; sourceTree = "<group>"; };
+		99CE90C9294936D500769230 /* MessageCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCellView.swift; sourceTree = "<group>"; };
+		99CE90CB29493B5400769230 /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
+		99CE90CD29493C9600769230 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +113,7 @@
 			children = (
 				99CE90B22947C39500769230 /* Color+Extensions.swift */,
 				99CE90B42947E12100769230 /* Image+Extensions.swift */,
+				99CE90C529491C0800769230 /* UIApplication+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -140,6 +157,8 @@
 			isa = PBXGroup;
 			children = (
 				99CE90A42947BE5900769230 /* HomeView.swift */,
+				99CE90CB29493B5400769230 /* TopBar.swift */,
+				99CE90CD29493C9600769230 /* MainView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -157,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				99CE90AA2947C00400769230 /* MessagesView.swift */,
+				99CE90C9294936D500769230 /* MessageCellView.swift */,
 			);
 			path = Messages;
 			sourceTree = "<group>";
@@ -165,6 +185,8 @@
 			isa = PBXGroup;
 			children = (
 				99CE90AD2947C01400769230 /* SearchView.swift */,
+				99CE90BF29490E2A00769230 /* SearchCell.swift */,
+				99CE90C329491A5B00769230 /* SearchUserCell.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -173,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				99CE90B02947C06600769230 /* NotificationsView.swift */,
+				99CE90C72949339800769230 /* NotificationCellView.swift */,
 			);
 			path = Notifications;
 			sourceTree = "<group>";
@@ -189,6 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				99CE90BA2947E9C800769230 /* MultilineTextField.swift */,
+				99CE90C12949166400769230 /* SearchBarView.swift */,
 			);
 			path = CustomItems;
 			sourceTree = "<group>";
@@ -263,17 +287,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99CE90C029490E2A00769230 /* SearchCell.swift in Sources */,
 				99CE90B52947E12100769230 /* Image+Extensions.swift in Sources */,
+				99CE90C629491C0800769230 /* UIApplication+Extension.swift in Sources */,
 				9985A82D2942C3C100D211A2 /* ContentView.swift in Sources */,
 				99CE90A82947BFF200769230 /* FeedView.swift in Sources */,
 				99CE90AB2947C00400769230 /* MessagesView.swift in Sources */,
+				99CE90C429491A5C00769230 /* SearchUserCell.swift in Sources */,
 				99CE90B32947C39500769230 /* Color+Extensions.swift in Sources */,
+				99CE90CA294936D500769230 /* MessageCellView.swift in Sources */,
 				99CE90AE2947C01400769230 /* SearchView.swift in Sources */,
 				99CE90BD294816BB00769230 /* TweetCellView.swift in Sources */,
 				99CE90A52947BE5900769230 /* HomeView.swift in Sources */,
+				99CE90C82949339800769230 /* NotificationCellView.swift in Sources */,
+				99CE90CE29493C9600769230 /* MainView.swift in Sources */,
 				9985A82B2942C3C100D211A2 /* TwitterCloneApp.swift in Sources */,
 				99CE90B82947E73300769230 /* CreateTweetView.swift in Sources */,
+				99CE90CC29493B5400769230 /* TopBar.swift in Sources */,
 				99CE90B12947C06600769230 /* NotificationsView.swift in Sources */,
+				99CE90C22949166400769230 /* SearchBarView.swift in Sources */,
 				99CE90BB2947E9C800769230 /* MultilineTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
