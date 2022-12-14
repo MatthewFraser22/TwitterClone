@@ -14,10 +14,9 @@ struct CreateTweetView: View {
         VStack {
             topBar
 
-            // Spacer()
-            
+            Spacer()
+
             MultilineTextField(text: $text)
-            
         }
     }
 
@@ -37,7 +36,6 @@ struct CreateTweetView: View {
                 Text("Tweet")
                     .padding([.top, .bottom], 6)
                     .padding([.leading, .trailing], 12)
-                    
             }
             .background(Color.background)
             .foregroundColor(.white)

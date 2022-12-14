@@ -8,22 +8,24 @@
 import SwiftUI
 
 struct TweetCellView: View {
-    
+
+    // MARK: - Variables
+
     var tweet: String
     var tweetImage: String?
-    
+
+    // MARK: - Body
+
     var body: some View {
         VStack {
             HStack(alignment: .top, spacing: 10) {
                 userProfileImage
-
                 bodyTweetCell
-
             }
-
         }
-
     }
+
+    // MARK: - Profile Image
 
     private var userProfileImage: some View {
         Image("TweetImage")
@@ -32,6 +34,8 @@ struct TweetCellView: View {
             .frame(width: 65, height: 65)
             //.aspectRatio(contentMode: .fill)
     }
+
+    // MARK: - Username
 
     private var usernameView: some View {
         HStack(alignment: .top, spacing: 10) {
@@ -42,6 +46,8 @@ struct TweetCellView: View {
                 .foregroundColor(.gray)
         }
     }
+
+    // MARK: - Tweet Cell
 
     private var bodyTweetCell: some View {
         VStack(alignment: .leading, spacing: 10) {
@@ -65,6 +71,8 @@ struct TweetCellView: View {
             bottomTweetCell
         }
     }
+
+    // MARK: - Tweet Button Options
 
     private var bottomTweetCell: some View {
         HStack(spacing: 50) {

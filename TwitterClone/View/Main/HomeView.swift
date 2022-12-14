@@ -35,6 +35,7 @@ struct HomeView: View {
                     print("Selected Index \(selectedIndex)")
                     self.selectedIndex = .feed
                 }
+                .toolbar(.hidden)
                 .tabItem {
                     if selectedIndex == .feed {
                         Image("Home")
@@ -49,6 +50,7 @@ struct HomeView: View {
                 .onTapGesture {
                     self.selectedIndex = .search
                 }
+                .toolbar(.hidden)
                 .tabItem {
                     #warning("TODO - Find out why this is !=")
                     if selectedIndex != .search {
@@ -61,6 +63,7 @@ struct HomeView: View {
                 }.tag(TabBarIndex.search)
 
             NotificationsView()
+                .toolbar(.hidden)
                 .onTapGesture {
                     self.selectedIndex = .notifications
                 }
@@ -75,6 +78,7 @@ struct HomeView: View {
                 }.tag(TabBarIndex.notifications)
 
             MessagesView()
+                .toolbar(.hidden)
                 .onTapGesture {
                     self.selectedIndex = .messages
                     print("Selected Index \(selectedIndex)")

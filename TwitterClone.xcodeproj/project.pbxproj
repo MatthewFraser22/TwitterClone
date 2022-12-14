@@ -29,6 +29,9 @@
 		99CE90CA294936D500769230 /* MessageCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE90C9294936D500769230 /* MessageCellView.swift */; };
 		99CE90CC29493B5400769230 /* TopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE90CB29493B5400769230 /* TopBar.swift */; };
 		99CE90CE29493C9600769230 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE90CD29493C9600769230 /* MainView.swift */; };
+		99CE90D029493DAE00769230 /* SlideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE90CF29493DAE00769230 /* SlideMenuView.swift */; };
+		99CE90D229493E8F00769230 /* FollowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE90D129493E8F00769230 /* FollowView.swift */; };
+		99CE90D4294941EE00769230 /* MenuButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CE90D3294941EE00769230 /* MenuButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +58,9 @@
 		99CE90C9294936D500769230 /* MessageCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCellView.swift; sourceTree = "<group>"; };
 		99CE90CB29493B5400769230 /* TopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBar.swift; sourceTree = "<group>"; };
 		99CE90CD29493C9600769230 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		99CE90CF29493DAE00769230 /* SlideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuView.swift; sourceTree = "<group>"; };
+		99CE90D129493E8F00769230 /* FollowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowView.swift; sourceTree = "<group>"; };
+		99CE90D3294941EE00769230 /* MenuButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +165,7 @@
 				99CE90A42947BE5900769230 /* HomeView.swift */,
 				99CE90CB29493B5400769230 /* TopBar.swift */,
 				99CE90CD29493C9600769230 /* MainView.swift */,
+				99CE90CF29493DAE00769230 /* SlideMenuView.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -213,6 +220,8 @@
 			children = (
 				99CE90BA2947E9C800769230 /* MultilineTextField.swift */,
 				99CE90C12949166400769230 /* SearchBarView.swift */,
+				99CE90D129493E8F00769230 /* FollowView.swift */,
+				99CE90D3294941EE00769230 /* MenuButtonView.swift */,
 			);
 			path = CustomItems;
 			sourceTree = "<group>";
@@ -290,7 +299,9 @@
 				99CE90C029490E2A00769230 /* SearchCell.swift in Sources */,
 				99CE90B52947E12100769230 /* Image+Extensions.swift in Sources */,
 				99CE90C629491C0800769230 /* UIApplication+Extension.swift in Sources */,
+				99CE90D229493E8F00769230 /* FollowView.swift in Sources */,
 				9985A82D2942C3C100D211A2 /* ContentView.swift in Sources */,
+				99CE90D4294941EE00769230 /* MenuButtonView.swift in Sources */,
 				99CE90A82947BFF200769230 /* FeedView.swift in Sources */,
 				99CE90AB2947C00400769230 /* MessagesView.swift in Sources */,
 				99CE90C429491A5C00769230 /* SearchUserCell.swift in Sources */,
@@ -307,6 +318,7 @@
 				99CE90B12947C06600769230 /* NotificationsView.swift in Sources */,
 				99CE90C22949166400769230 /* SearchBarView.swift in Sources */,
 				99CE90BB2947E9C800769230 /* MultilineTextField.swift in Sources */,
+				99CE90D029493DAE00769230 /* SlideMenuView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
