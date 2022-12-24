@@ -119,9 +119,7 @@ struct HomeView: View {
                         .foregroundColor(.white)
                 }
             }.padding()
-
         }.padding(.bottom, 55)
-
     }
 
     enum TabBarIndex: Int, Hashable {

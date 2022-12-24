@@ -16,6 +16,7 @@ struct TopBar: View {
         VStack {
             topBarUI
             dividerView
+            
         }.background(Color.white)
     }
 
@@ -37,7 +38,7 @@ struct TopBar: View {
                 .resizable()
                 .scaledToFill()
                 .padding(.trailing)
-                .frame(width: 20, height: 20)
+                .frame(width: .twitterIconTopBar, height: .twitterIconTopBar)
 
             Spacer(minLength: 0)
 
