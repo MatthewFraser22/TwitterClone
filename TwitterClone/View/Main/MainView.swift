@@ -23,7 +23,7 @@ struct MainView: View {
                     VStack {
                         TopBar(x: $x)
                         HomeView()
-                    }
+                    }.offset(x: x + width)
                     slideMenu
                 }.gesture(
                     DragGesture()

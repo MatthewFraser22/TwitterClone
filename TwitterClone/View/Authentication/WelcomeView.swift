@@ -72,17 +72,17 @@ struct WelcomeView: View {
     }
 
     private var createAccountButton: some View {
-        Button {
-            
-        } label: {
-            Text("Create account")
-                .foregroundColor(.white)
-                .font(.system(size: 18))
-                .frame(width: .buttonWidth, height: .buttonHeight, alignment: .center)
-                .background(
-                    Capsule()
-                        .foregroundColor(.background)
-                )
+        NavigationLink(destination: RegisterView().toolbar(.hidden)) {
+            RoundedRectangle(cornerRadius: 36)
+                .foregroundColor(.background)
+                .frame(width: 320, height: 60, alignment: .center)
+                .overlay {
+                    Text("Create account")
+                        .fontWeight(.bold)
+                        .font(.title3)
+                        .foregroundColor(.white)
+                        .padding()
+                }
         }
     }
 
@@ -98,9 +98,11 @@ struct WelcomeView: View {
                 .foregroundColor(.background)
 
             HStack(spacing: 2) {
-                Text("Have an account already? ") +
-                Text("Log in")
-                    .foregroundColor(.background)
+                Text("Have an account already? ")
+                NavigationLink(destination: LoginView().toolbar(.hidden)) {
+                    Text("Log in")
+                        .foregroundColor(.background)
+                }
             }
         }
         .padding([.leading, .trailing], 10)
